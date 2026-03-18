@@ -19,19 +19,23 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/b0dff412-7766-4d48-bbf5-b105573a5813/files/f2433ca5-3223-4004-a88b-d4d9382beba5.jpg"
+          alt="Современный интерьер в стиле лайт-дизайн"
           className="w-full h-full object-cover"
         />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
+      <div className="relative z-10 text-center text-white px-6">
+        <p className="uppercase tracking-widest text-sm mb-4 opacity-80">Дизайн-проект за 2 недели</p>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          ЛАЙТ-ДИЗАЙН
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+        <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 mb-8">
+          Красивое и удобное пространство — без лишних затрат и месяцев ожидания
         </p>
+        <button className="border border-white text-white px-8 py-3 uppercase tracking-wide text-sm hover:bg-white hover:text-black transition-all duration-300 cursor-pointer">
+          Узнать подробнее
+        </button>
       </div>
     </div>
   );
